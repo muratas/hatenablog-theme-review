@@ -1,0 +1,12 @@
+{
+  "name": "hatenablog-theme-review",
+  "version": "1.0.0",
+  "devDependencies": {
+    "autoprefixer": "^9.4.6",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "normalize.css": "^8.0.1"
+  }
+}
