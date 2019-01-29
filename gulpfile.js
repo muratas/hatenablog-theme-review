@@ -17,8 +17,7 @@ gulp.task('build-sass', () => {
   return gulp.src(['src/**/*.scss', '!src/**/_*.scss'])
     .pipe(sass({ compress: false }))
     .pipe(postcss([ autoprefixer({ browsers: ['last 2 versions'] }) ]))
-    .pipe(gulp.dest('dest'))
-    .pipe(bs.stream());
+    .pipe(gulp.dest('dest'));
 });
 
 gulp.task('default', gulp.parallel('serve'));
