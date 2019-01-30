@@ -9,17 +9,17 @@
 セットアップ：
 
 ```
-$ yarn install
+yarn install
 ```
 
 Sassの監視とコンパイルを開始：
 
 ```
-$ gulp
+gulp
 ```
 
 はてなブログの「デザインCSS」に設定する：
 
 ```
-@import 'http://localhost:3000/app.css';
+@import 'http://localhost:3030/app.css';
 ```

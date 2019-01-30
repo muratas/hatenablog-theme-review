@@ -8,6 +8,10 @@ gulp.task('serve', () => {
   bs.init({
     server: './dest',
     open: false,
+    port: 3030,
+    ui: {
+      port: 3031,
+    },
   });
 
   gulp.watch('src/**/*.scss', gulp.parallel('build-sass'));
