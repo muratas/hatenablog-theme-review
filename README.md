@@ -1,4 +1,4 @@
-# hatenablog-theme-review
+# hatenablog-review
 
 [はてなブログ](https://hatenablog.com/)のブログテーマ「Review」です。
 
