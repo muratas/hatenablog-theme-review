@@ -21,5 +21,5 @@ gulp
 はてなブログの「デザインCSS」に設定する：
 
 ```
-@import 'http://localhost:3030/app.css';
+@import 'http://localhost:3030/review.css';
 ```
