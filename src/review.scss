@@ -1,0 +1,20 @@
+/*!
+ Theme: Review
+ Author: murata_s
+ Description: お気に入りの作品や製品の感想を書きたくなるテーマです
+ Responsive: yes
+ */
+
+@charset 'utf-8';
+
+@import '../node_modules/normalize.css/normalize';
+@import '_variables';
+@import '_mixins';
+
+@import 'common/_common';
+@import 'common/_entry';
+@import 'common/_box2';
+
+@import 'pages/about';
+@import 'pages/archive';
+@import 'pages/preview';

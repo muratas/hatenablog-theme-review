@@ -1,0 +1,24 @@
+@mixin dots ($margin: 60px) {
+  margin: 0 0 ($margin*2 - 4px);
+  position: relative;
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -$margin;
+    left: 50%;
+    height: 4px !important;
+    background: #aaa;
+  }
+  &:before {
+    width: 32px;
+    margin: 0 0 0 -16px;
+  }
+  &:after {
+    width: 4px;
+    border: solid #fff;
+    border-width: 0 10px;
+    margin: 0 0 0 -12px;
+    visibility: visible !important;
+  }
+}

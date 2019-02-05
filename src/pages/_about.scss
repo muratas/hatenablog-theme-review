@@ -1,0 +1,17 @@
+.page-about {
+  .entry {
+    dl {
+      overflow: hidden;
+    }
+    dt, dd {
+      float: left;
+      margin: 0;
+      padding: 10px 0;
+    }
+    dt {
+      clear: both;
+      font-weight: bold;
+      width: 10em;
+    }
+  }
+}
