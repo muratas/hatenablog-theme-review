@@ -23,7 +23,3 @@ Set up the CSS for “Design CSS” of Hatena blog:
 ```
 @import 'http://localhost:3030/review.css';
 ```
-
-## Screenshot
-
-![](src/images/review.jpg)
