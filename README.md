@@ -1,24 +1,24 @@
 # hatenablog-review
 
-[はてなブログ](https://hatenablog.com/)のブログテーマ「Review」です。
+Blog theme for [Hatena Blog](https://hatenablog.com/) named Review.
 
-テーマストアから[インストールして使う](http://blog.hatena.ne.jp/-/store/theme/8454420450101088484)ことができます。
+You can install this theme from [the theme store](http://blog.hatena.ne.jp/-/store/theme/8454420450101088484) and use it.
 
-## 開発
+## Development
 
-セットアップ：
+Setup:
 
 ```
 yarn install
 ```
 
-Sassの監視とコンパイルを開始：
+Start monitoring and compiling Sass:
 
 ```
 gulp
 ```
 
-はてなブログの「デザインCSS」に設定する：
+Set up the CSS for “Design CSS” of Hatena blog:
 
 ```
 @import 'http://localhost:3030/review.css';
